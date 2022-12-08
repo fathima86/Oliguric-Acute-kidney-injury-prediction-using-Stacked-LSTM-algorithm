@@ -25,7 +25,7 @@ vents-vasopressor-sedatives-kdigo_stages_measured.csv containing temporal inform
 To generate such data files some preliminary step are needed:
 
 Set-up MIMIC III
-Run the following SQL scripts from the MIMIC code repository:
+Run the following SQL scripts in MIMIC-III datatset:
 mimic-iii/concepts/echo-data.sql
 mimic-iii/concepts/demographics/icustay_detail.sql
 mimic-iii/concepts/durations/weight-durations.sql
@@ -37,7 +37,8 @@ mimic-iii/concepts/organfailure/kdigo-stages-48hr.sql
 mimic-iii/concepts/organfailure/kdigo-stages-7day.sql
 mimic-iii/concepts/organfailure/kdigo-stages.sql
 mimic-iii/concepts/organfailure/kdigo-uo.sql
-Run the SQL scripts in the sql folder. The extract_data.sql should be run after all the other scripts. These scripts builds on and extends the scripts from the MIMIC code repository mentioned at point 2.
+Run the SQL scripts. The extract_data.sql should be run after all the other scripts. These scripts builds on and extends the scripts from the MIMIC code repository mentioned at point 2.
+Extracted data are saved as CSV files and used for implementation
 imputation
 Selection and pattern mixture model
 
