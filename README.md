@@ -43,10 +43,8 @@ imputation
 Selection and pattern mixture model
 
 Models
-Continuous AKI prediction
 
 stacked LSTM
-Prediction 48 hours before the onset of AKI
 XGBoost
 Random forest
 LSTM
